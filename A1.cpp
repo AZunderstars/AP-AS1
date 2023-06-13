@@ -102,9 +102,7 @@ vector<Time_range> read_meetings()
 	while (cin >> input_string)
 	{
 		if (has_ending_char(input_string))
-		{
 			break;
-		}
 		Time_range new_meeting = input_meeting(input_string);
 		meetings.push_back(new_meeting);
 	}
