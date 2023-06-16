@@ -1,3 +1,4 @@
+#!/bin/bash
 g++ A1.cpp
 
 if [ $? -eq 0 ];
