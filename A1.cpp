@@ -34,12 +34,7 @@ struct Work
 
 bool has_ending_char(string input_string)
 {
-	bool return_value = false;
-	if (input_string[0] == ENDING_CHARACTER)
-	{
-		return_value = true;
-	}
-	return return_value;
+	return input_string[0] == ENDING_CHARACTER;
 }
 
 int calculate_input_time(string input_string, int starting_point)
